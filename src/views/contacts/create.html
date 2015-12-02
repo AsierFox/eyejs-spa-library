@@ -1,0 +1,57 @@
+
+<div class="row">
+    <form class="col s12">
+        <div class="row">
+            <div class="input-field col s6">
+                <i class="material-icons prefix">account_circle</i>
+                <input id="first_name" type="text" class="validate">
+                <label for="first_name">First Name</label>
+            </div>
+            <div class="input-field col s6">
+                <i class="material-icons prefix">email</i>
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s6">
+                <select>
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="orange">Orange</option>
+                    <option value="black">Black</option>
+                </select>
+                <label>Which is you favorite color?</label>
+            </div>
+            <div class="input-field col s6">
+                <p class="range-field">How old are you?
+                    <input type="range" id="test5" min="0" max="100" />
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="switch">
+                <label for="get_info">Do you want to receive information?</label><br>
+                <label>
+                    No
+                    <input type="checkbox">
+                    <span class="lever"></span>
+                    Yes
+                </label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field col s6">
+                <label>Choose a date!</label>
+                <input type="date" class="datepicker">
+            </div>
+            <div class="input-field col s6">
+                <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                    <i class="material-icons right">send</i>
+                </button>
+            </div>
+        </div>
+    </form>
+</div>
